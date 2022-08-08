@@ -1,0 +1,573 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Free Snow Bootstrap Website Template | Experiance :: w3layouts</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+    <!-- light-box -->
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+   <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="logo">
+						<a href="index.html"><img src="images/logo.png" alt=""/></a>
+					 </div>
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+						    	<li><a href="index.html">mision y vision&nbsp;&nbsp;</a></li>
+						    	<li><a href="experiance.html">album de fotos&nbsp;</a></li>
+								<li><a href="shop.html">videos&nbsp;</a></li>
+								<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>							
+	    		    <div class="clear"></div>
+	    	    </div>
+	            
+	      </div>
+		 </div>
+	    </div>
+	  </div>
+     <div class="main">
+      <div class="shop_top">
+		<div class="container">
+			<div class="row ex_box">
+				<h3 class="m_2">Galeria</h3>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e1.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p1.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e2.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e2.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e3.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e3.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>		
+		    </div>
+		    <div class="row ex_box">
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p4.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e5.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e6.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e6.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+		    </div>
+		    <div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e7.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e7.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e8.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e8.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e9.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p9.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			
+			<div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e10.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e10.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e11.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e11.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e12.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e12.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			<div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e13.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e13.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e14.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p14.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e15.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p15.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			<div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e16.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e16.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e17.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p17.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e18.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p18.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			<div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e19.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p19.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e20.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e20.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e21.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e21.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			<div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e22.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p22.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e23.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p23.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e24.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p24.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			
+			<div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e25.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p25.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e26.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e26.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e27.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p27.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			
+			<div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e28.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e28.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e29.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e29.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e30.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p30.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			
+			<div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e31.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p31.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e32.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p32.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e33.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/p33.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		 </div>
+	   </div>
+	  </div>
+	 <div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>CONTACTO</h4>
+							<li><a href="https://wa.me/0999809838?text=¡Estoy+interesado!"> CONTACTAR POR WhatsApp DAME CLICK TELEFONO : 0999809838</a></li>
+							<li> <A>DIRECCION :  CALLE JOSE MASCOTE2606 Y GOMEZ RENDON  GUAYAS 7 GUAYAQUIL </A></li>
+						
+						</ul>
+					</div>
+					<!-- <div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+							<li><a href="#">Careers and internships</a></li>
+							<li><a href="#">Sponserships</a></li>
+							<li><a href="#">team</a></li>
+							<li><a href="#">Catalog Request/Download</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>Customer Support</h4>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Shipping and Order Tracking</a></li>
+							<li><a href="#">Easy Returns</a></li>
+							<li><a href="#">Warranty</a></li>
+							<li><a href="#">Replacement Binding Parts</a></li>
+						</ul>
+					</div>-->
+					<div class="col-md-3">
+						<ul class="footer_box">
+							
+							
+							<ul class="social">	
+							  <li class="facebook"><a href="https://www.facebook.com/Fundacion-de-accion-social-Manos-que-ayudan-113138317221506"><span> </span></a></li>
+							  <li class="correo"><a href=""><span> f.manosqueayudan@outlook.com</span></a></li>
+							<!--  <li class="instagram"><a href="#"><span> </span></a></li>	
+							  <li class="pinterest"><a href="#"><span> </span></a></li>	
+							  <li class="youtube"><a href="#"><span> </span></a></li>-->										  				
+						    </ul>
+		   					
+						</ul>
+					</div>
+				</div>
+				<div class="row footer_bottom">
+				    <div class="copy">
+			           <p>WELLINGTON BAZAN  <a href="http://w3layouts.com" target="_blank"></a></p>
+		            </div>
+					
+   				</div>
+			</div>
+		</div>
+</body>	
+</html>
+</body>	
+</html>
